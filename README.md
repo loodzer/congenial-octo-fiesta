@@ -1,1 +1,10 @@
-# congenial-octo-fiesta
+# CrudController - Создание, вывод, обновление, удаление информации о пользователе
+# Для админки использовался шаблон AdminLTE
+
+1. Выполните миграции
+2. Необходимо добавить две роли:
+    1. php artisan permission:create-role writer
+    2. php artisan permission:create-role admin
+3. Создайте пользователя
+4. В базе данных измените роль пользователя на 'admin'
+5. После авторизации админ панель доступна по адресу 127.0.0.1:8000/admin_panel
